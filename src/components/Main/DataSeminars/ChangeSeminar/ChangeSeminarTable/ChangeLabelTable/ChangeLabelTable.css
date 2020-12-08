@@ -1,0 +1,19 @@
+.change-label-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.change-label-table button {
+    padding: 1rem 2rem;
+    color: white;
+    background: #fa6868;
+    border: 1px  #fa6868 solid;
+}
+.change-label-table button:hover {
+    background: #e94c4c;
+    border: 1px #e94c4c solid;
+}
+.change-label-table button:active {
+    background: red;
+    border: 1px red solid;
+}

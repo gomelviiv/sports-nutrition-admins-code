@@ -1,0 +1,15 @@
+.main-class-modal-add-seminar {
+    position:  relative; 
+    top: 14%;
+    width: 80%;
+    margin: 0 auto;
+   
+    z-index: 100;
+    height:85%;
+    border: none;
+    overflow-y: scroll;
+}
+.add-seminar{
+    background: rgb(192, 185, 185);
+}
+

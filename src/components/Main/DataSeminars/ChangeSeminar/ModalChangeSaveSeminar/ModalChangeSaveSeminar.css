@@ -1,0 +1,90 @@
+.modal-change-save-seminar {
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 0;
+    border: none;
+    
+    height: 80%;
+    overflow-y: scroll;
+    background: rgba(241, 240, 240, 0.746);
+}
+.table-save-change > div {
+    display: flex;
+    flex-direction: row;
+}
+.modal-save-seminar {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.modal-save-seminar h3 {
+    margin: 2rem 0;
+}
+
+.modal-save-seminar >div>div > label{
+    margin-right: 2rem;
+}
+.modal-save-seminar >div{
+    display: flex;
+    flex-direction: column;
+}
+.modal-save-seminar >div:last-child{
+    flex-direction: column;
+}
+.artirle-paragraph  {
+    display: flex;
+    flex-direction: row;
+}
+.artirle-paragraph >div {
+    margin-right: 3rem;
+    
+}
+.artirle-paragraph >p {
+    width: 40rem;
+
+}
+
+.bottom-button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bottom-button > button:nth-child(2) {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background: #fa6868;
+    border: 1px  #fa6868 solid;
+}
+.bottom-button > button {
+    padding: 1rem 2rem;
+    border: 1px black solid;
+    margin-right: 0.3rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background: #34c248;
+    border: 1px  #34c248 solid;
+}
+.bottom-button >  button:nth-child(2):hover {
+    background: #e94c4c;
+    border: 1px #e94c4c solid;
+}
+.bottom-button > button:nth-child(2):active {
+    background: red;
+    border: 1px red solid;
+}
+.bottom-button >  button:hover {
+    background:#229532;
+    border: 1px #229532 solid;
+}
+.bottom-button > button:active {
+    background: #1b6e27;
+    border: 1px #1b6e27 solid;
+}

@@ -1,0 +1,43 @@
+.section-entry {
+    width: 100%;
+    height: auto;
+
+}
+
+.form {   
+    margin: 30rem auto;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+    width: 100%;
+}
+
+.button-entry {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-entry > button {
+    margin: 1rem 3rem;
+    width: 12rem;
+    padding: 1.2rem;
+    border: 1px black solid;
+    background: none;
+}
+
+.button-entry > button:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.form > input {
+    width: 30rem;
+    padding: 1.7rem;
+    margin: 1rem;
+    font-size: 2rem;
+}

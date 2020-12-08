@@ -1,0 +1,30 @@
+.section-main > div{ 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    /* border-bottom: 1px black solid; */
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+.navigation-on-main > button {
+    font-size: 3rem;
+    color: black;
+    padding: 1rem 2rem;
+    background: none;
+    border: 1px black solid;
+}
+.navigation-on-main > button:hover {
+    background: black;
+    color: white
+}
+
+.navigation-on-main > button:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}

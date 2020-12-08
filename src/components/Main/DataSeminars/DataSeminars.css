@@ -1,0 +1,85 @@
+.data-seminars { 
+    margin-top: 4rem;
+    width: 100%;
+    font-size: 2rem;
+}
+.table-header-seminar {
+    text-align: center;
+    background-color: #1c1d1d;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.table-row-seminar {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+.col-1 {
+    flex-basis: 10%;
+}
+.col-2 {
+    flex-basis: 30%;
+}
+.table-header-seminar {
+    display: flex;
+    align-items: center;
+}
+
+.table-header-seminar >div > button{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: black;
+    background: rgb(206, 206, 37);
+    border: 1px  rgb(206, 206, 37) solid;
+}
+.table-header-seminar >div >  button:hover {
+    background: #ecda37;
+    border: 1px #ecda37 solid;
+}
+.table-header-seminar >div > button:active {
+    background: rgb(246, 222, 0);
+    border: 1px rgb(246, 222, 0) solid;
+}
+
+.table-row-seminar >div > button {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background: #fa6868;
+    border: 1px  #fa6868 solid;
+}
+.table-row-seminar >div > button:nth-child(2) {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background: #34c248;
+    border: 1px  #34c248 solid;
+}
+.table-row-seminar >div >  button:hover {
+    background: #e94c4c;
+    border: 1px #e94c4c solid;
+}
+.table-row-seminar >div > button:active {
+    background: red;
+    border: 1px red solid;
+}
+.table-row-seminar >div >  button:nth-child(2):hover {
+    background:#229532;
+    border: 1px #229532 solid;
+}
+.table-row-seminar >div > button:nth-child(2):active {
+    background: #1b6e27;
+    border: 1px #1b6e27 solid;
+}
+
+.table-row-seminar  button{
+    padding: 1rem 2rem;
+    border: 1px black solid;
+    background: none;
+    margin-right: 0.3rem;
+}

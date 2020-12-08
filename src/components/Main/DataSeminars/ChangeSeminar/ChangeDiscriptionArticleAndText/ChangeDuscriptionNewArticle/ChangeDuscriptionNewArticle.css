@@ -1,0 +1,26 @@
+.change-discription-new-article button {
+    padding: 1rem 2rem;
+    color: white;
+    background: #fa6868;
+    border: 1px  #fa6868 solid;
+}
+.change-discription-new-article button:hover {
+    background: #e94c4c;
+    border: 1px #e94c4c solid;
+}
+.change-discription-new-article button:active {
+    background: red;
+    border: 1px red solid;
+}
+.change-discription-new-article  input {
+    width: 47rem;
+    padding: 1.7rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+.change-discription-new > div:nth-child(2) {
+    display: flex;
+    width: 43%;
+    flex-direction: row;
+    margin-left: 29rem;
+}

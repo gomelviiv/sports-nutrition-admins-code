@@ -1,0 +1,36 @@
+.change-discription-artiecle-and-text { 
+    display: flex;
+    flex-direction: column;
+}
+
+.change-discription-artiecle-and-text > div {
+    display: flex;
+    flex-direction: column;
+}
+.change-discription-artiecle-and-text> div >div > div {
+    width: 70%;
+
+}
+.change-discription-artiecle-and-text> div >div {
+    display: flex;
+    flex-direction: row;
+}   
+
+
+.change-discription-artiecle-and-text button {
+    margin: 2rem 0;
+    padding: 2rem 0 ;
+    background: white;
+    border: 1px black solid;
+    color: black;
+    font-size: 1.7rem;
+    
+}
+.change-discription-artiecle-and-text button:hover {
+    background: #3f3b3b;
+    color: white;
+}
+.change-discription-artiecle-and-text button:active {
+    background: black;
+    color: white;
+}

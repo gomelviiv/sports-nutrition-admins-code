@@ -1,0 +1,31 @@
+.change-discription-new-text {
+    display: flex;
+    flex-direction: column;
+}
+.change-discription-new-text > div:nth-child(2) {
+    display: flex;
+    width: 43%;
+    flex-direction: row;
+}
+.change-discription-new-text> div >  textarea{
+    width: 57rem;
+    resize: vertical;
+    padding: 1.7rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.change-discription-new-text button {
+    padding: 1rem 2rem;
+    color: white;
+    background: #fa6868;
+    border: 1px  #fa6868 solid;
+}
+.change-discription-new-text button:hover {
+    background: #e94c4c;
+    border: 1px #e94c4c solid;
+}
+.change-discription-new-text button:active {
+    background: red;
+    border: 1px red solid;
+}

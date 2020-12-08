@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60%;
+}
+
+button,
+input,
+textarea,
+textarea:focus,
+textarea:active,
+input:focus,
+input:active, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'lato', sans-serif;
+}
+main {
+    min-height: calc(100vh - 80px)
+}

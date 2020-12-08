@@ -1,0 +1,33 @@
+.change-main-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-main-information > div{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border-bottom: 1px black solid; */
+
+}
+.change-main-information > div > div {
+    font-size: 2rem;
+    width: 50%;
+}
+
+
+.change-main-information  input {
+    width: 47rem;
+    padding: 1.7rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.change-main-information > div > div> textarea {
+    width: 47rem;
+    padding: 1.7rem;
+    margin: 1rem;
+    font-size: 2rem;
+    resize: vertical;
+}
